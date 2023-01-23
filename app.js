@@ -1,3 +1,4 @@
+
 const lang = "en";
 
 switch (lang) {
@@ -13,3 +14,4 @@ switch (lang) {
     default:
         break;
 }
+
