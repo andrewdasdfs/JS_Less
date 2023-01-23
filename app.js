@@ -1,6 +1,17 @@
-const positionLat = 4;
-const positionLong = 3;
-const addressLat = 10;
-const addressLong = 9;
 
-console.log(Math.sqrt((addressLat - positionLat) ** 2 + (addressLong - positionLong) ** 2));
+const lang = "en";
+
+switch (lang) {
+    case "en":
+        console.log("Good day!");
+        break;
+    case "ru":
+        console.log("Добрый день!");
+        break;
+    case "de":
+        console.log("Gutten tag!");
+        break;
+    default:
+        break;
+}
+
