@@ -1,17 +1,8 @@
 
-const lang = "en";
+const hasLicence = true;
+const age = 16;
+const isDrink = false;
 
-switch (lang) {
-    case "en":
-        console.log("Good day!");
-        break;
-    case "ru":
-        console.log("Добрый день!");
-        break;
-    case "de":
-        console.log("Gutten tag!");
-        break;
-    default:
-        break;
-}
+const canDrive = age >= 16 && hasLicence && !isDrink;
+console.log(`Могу сесть за руль: ${canDrive ? 'Да' : 'Нет'}`);
 
